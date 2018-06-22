@@ -1,3 +1,21 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.nav-summary {
+    border: solid;
+    margin: 50px 0px 0px 0px;
+}
+
+#header-summary {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
 .text-color {
   color: rgb(255, 255, 255);
 }
@@ -76,3 +94,8 @@ h2 {
   margin: 0px 0px 10px 100px;
 }
 
+span {
+    font-size: 10px;
+    font-style: normal;
+    color: black;
+}

@@ -12,6 +12,12 @@ body, html {
     background-size: cover;
 }
 
+.bkgcalc {
+    background-color: grey;
+    width: 222px;
+    height: 285px;
+}
+
 .centerCalc {
     position: fixed;
     width: 50px;
