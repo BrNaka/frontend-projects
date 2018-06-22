@@ -1,6 +1,8 @@
-Free Code Camp Projects
+<h1> Free Code Camp Projects </h1>
 
-1) Responsive Web-Design Projects
-    - Build a Tribute Page
-    - Build a Survey Form
-    - Build a Personal Portfolio Webpage
+<h2> Responsive Web-Design Projects </h2>
+    <ul>
+        <li>  Build a Tribute Page </li>
+        <li>  Build a Survey Form </li>
+        <li>  Build a Personal Portfolio Webpage </li>
+    </ul>
