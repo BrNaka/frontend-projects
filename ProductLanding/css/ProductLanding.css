@@ -1,0 +1,176 @@
+@font-face {
+    font-family: header-font;
+    src: url("../fonts/shamery.ttf");
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../imgs/lines-background.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: #26734d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff1a1a;
+}
+
+iframe {
+    display: block;
+    margin: 50px auto 80px auto;
+}
+
+.main {
+    padding-top: 150px;
+}
+
+#header {
+    background-image: url("../imgs/lines-background.png");
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header-img {
+    width: 80px;
+}
+
+.header-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 20px 20px;
+}
+
+.header-items-wrapper {
+    display: grid;
+    grid-template-columns: 100px 150px 130px;
+    justify-items: end;
+    margin-left: 45%;
+}
+
+.nav-link {
+    font-family: header-font;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header-p-font {
+    color: #26734d;
+    font-family: header-font; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.hr-header {
+    padding: 0;
+    border: none;
+    border-top: thick double #333;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: header-font;
+    text-align: center;
+    color: #26734d;
+}
+
+.sections {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.about_us-p {
+    text-align: justify;
+    text-indent: 50px;
+    color: black;
+}
+
+.about_us-imgs {
+    margin-left: 35%;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.img-width1 {
+    width: 30px;
+}
+
+.img-width2 {
+    width: 60px;
+    margin-left: -30px;
+}
+
+.h3-About_Us {
+    margin-left: 80px;
+    color: #26734d;
+    text-transform: uppercase;
+}
+
+#email {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 300px;
+    height: 20px;
+}
+
+.contactUs-p {
+    text-align: center;
+    color: #26734d;
+    font-weight: bolt;
+}
+
+.input-bttn {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    background: #ff1a1a;;
+    color: #FFF;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px #000;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.foot {
+    color: grey;
+}
+
+#footer {
+    display: block;
+    margin-left: 40%;
+}
+
+.footer-div {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+#footer-p {
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
