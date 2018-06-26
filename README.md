@@ -2,7 +2,6 @@
 <body>
     <div>
         <h1> Free Code Camp Projects </h1>
-        <img src="https://design-style-guide.freecodecamp.org/downloads/freeCodeCamp-alternative.png">
     </div>
         <hr>
     <div>
