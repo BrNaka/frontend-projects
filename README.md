@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <body>
-    <div>
         <h1> Free Code Camp Projects </h1>
-    </div>
-        <hr>
     <div>
         <h2> Responsive Web-Design Projects </h2>
             <ul>
