@@ -16,8 +16,8 @@
     </div>
         <hr>
     <div>
-        <a href="https://codepen.io/BrNaka/full/oEzgJg/" target="_blank"> <h3> Heart Tribute Page </h3> </a>
-        <img src="https://i.imgur.com/MmkaSw3.png">
+       <h3> Heart Tribute Page </h3>
+       <a href="https://codepen.io/BrNaka/full/oEzgJg/"> <img src="https://i.imgur.com/MmkaSw3.png"> </a>
     </div>
         <hr>
     <div>
