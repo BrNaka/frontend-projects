@@ -54,13 +54,17 @@ iframe {
     display: grid;
     grid-template-columns: 100px 150px 130px;
     justify-items: end;
-    margin-left: 45%;
+    margin-left: 100%;
 }
 
 .nav-link {
     font-family: header-font;
     font-size: 12px;
     font-weight: bold;
+}
+
+#nav-bar {
+    margin-left: 120px;
 }
 
 .header-p-font {
