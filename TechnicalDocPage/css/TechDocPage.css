@@ -1,0 +1,137 @@
+body { 
+    background-color: #003333;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(255, 255, 255, 0.9);
+    background-color: #ff944d;
+}
+
+#navbar header {
+    color: #003333;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#navbar ul { 
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: #003333;
+    border: 1px solid;
+    border-bottom-width: 0px;
+    padding: 8px;
+    padding-left: 45px;
+    list-style: none;
+    position: relative;
+    left: -50px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+#navbar li:hover {
+    color: #ff6600;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #ff6600;
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar  {
+        border: 1px solid;
+        height: 207px;
+    }
+    #navbar{
+        background-color:white;
+        position:absolute;
+        top:0;
+        padding:0;
+        margin: 0;
+        width:100%;
+        max-height:275px;
+        border:none;
+        z-index:1;
+        border-bottom:2px solid;
+    }
+    #main-doc{
+        position: relative;
+        margin-left:0px;
+        margin-top:270px;
+    }
+    #main-doc section {
+        /*     padding-top: 240px; */
+    }
+}
+
+#main-doc {
+    margin-left: 25%;
+    margin-right: 10px;
+}
+
+#main-doc a {
+    color: #ff6600;
+}
+
+#main-doc a:hover {
+    color: #FFFFFF;
+}
+
+#main-doc h1 {
+    color: #ff944d;
+    text-indent: 60px;
+}
+
+#main-doc p {
+    color: #FFFFFF;
+    text-indent: 60px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#main-doc ul {
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+#main-doc code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: bold;
+    background-color: lightgrey;
+    opacity: 0.5;
+    margin: 0 120px 0 120px;
+    border-radius: 10px;
+}
+
+.main-section {
+    text-align: left;
+}
