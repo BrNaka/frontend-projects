@@ -17,21 +17,21 @@
         <hr>
     <div>
        <h3> Heart Tribute Page </h3>
-       <a href="https://codepen.io/BrNaka/full/oEzgJg/"> <img src="https://i.imgur.com/MmkaSw3.png"> </a>
+       <a href="https://codepen.io/BrNaka/full/oEzgJg/" target="_blank"> <img src="https://i.imgur.com/MmkaSw3.png"> </a>
     </div>
         <hr>
     <div>
-        <a href="https://codepen.io/BrNaka/full/yEvOYQ/" target="_blank"> <h3> Survey Form </h3> </a>
-        <img src="https://i.imgur.com/fSdkIGi.png">
+        <h3> Survey Form </h3>
+        <a href="https://codepen.io/BrNaka/full/yEvOYQ/" target="_blank"> <img src="https://i.imgur.com/fSdkIGi.png"> </a>
     </div>
         <hr>
     <div>
-       <a href="https://codepen.io/BrNaka/full/KeBKwR/" target="_blank"> <h3> Product Landing Page </h3> </a>
-        <img src="https://i.imgur.com/9zqX0Yk.png">
+       <h3> Product Landing Page </h3>
+       <a href="https://codepen.io/BrNaka/full/KeBKwR/" target="_blank"><img src="https://i.imgur.com/9zqX0Yk.png"> </a>
     </div>
     <div>
-       <a href="https://codepen.io/BrNaka/full/JZegzY/" target="_blank"> <h3> Technical Documentation Page </h3> </a>
-        <img src="https://i.imgur.com/E0RjTnW.png">
+       <h3> Technical Documentation Page </h3>
+       <a href="https://codepen.io/BrNaka/full/JZegzY/" target="_blank"><img src="https://i.imgur.com/E0RjTnW.png"> </a>
     </div>
 </body>
     
