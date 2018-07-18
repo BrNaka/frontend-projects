@@ -1,0 +1,9 @@
+.App > h1{
+    font-family: almostJP;
+    letter-spacing: 1em;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+

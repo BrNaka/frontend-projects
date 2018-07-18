@@ -1,0 +1,80 @@
+@font-face { 
+    font-family: AlmostJP;
+    src: url('./Fonts/Mistuki.ttf');
+}
+
+:root {
+    box-sizing: border-box;
+    font-size: calc(0.2em + 1vw);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #505160;
+    width: 100%;
+    margin: 0;
+}
+
+header { 
+    margin-top: 0;
+}
+
+.bkg-header {
+    color: #fff;
+    background-image: url('bkg-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    padding: 1.5em;
+}
+
+.flexBox-index {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-page {
+    align-self: center;
+    margin-right: auto;
+    letter-spacing: 0.7em;
+}
+
+.nav {
+    margin-top: 0;
+    align-self: center;
+}
+
+.nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav > ul > li {
+    margin-top: 0;
+}
+
+.nav > ul > li + li {
+    margin-left: 2em;
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 0.5em 2em;
+    background-color: #fff;
+    border-radius: 1.5px;
+    font-size: 0.8rem;
+}
+
+.header-text h2 {
+    font-family: almostJP;
+    font-size: 5em;
+    font-weight: 100;
+    letter-spacing: .1em;
+}
+
+

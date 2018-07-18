@@ -1,0 +1,130 @@
+.AddList {
+    padding: 1em 1.5em;
+    margin: 0 1em 1.5em 1em;
+    background: #68829e;
+    border-radius: 2px;
+    border: 2px solid black;
+    color: #fff;
+}
+
+.AddList > h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #AEBD38;
+    font-weight: 800;
+}
+
+.AddList_form-request {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: ". cli ."
+                         "moti . mandju"   
+                         ". submit .";
+}
+
+.AddList_form-request > button {
+    grid-area: submit;
+}
+
+.client-request {
+    text-align: center;
+    grid-area: cli;
+}
+
+.client-request > label {
+    font-size: 1.5em;
+}
+
+.input-client {
+    font-size: 1.5em;
+    margin: .3em auto;
+    width: 30%;
+    transition: width 2s, background-color 2s, padding-top 2s;
+    text-align: center;
+}
+
+.input-client:focus {
+    background-color: #eee;
+    width: 50%;
+    padding-top: .2em;
+}
+
+.moti-request {
+    grid-area: moti;
+    margin: 0 auto;
+}
+
+.mandju-request {
+    grid-area: mandju;
+    margin: 0 auto;
+}
+
+#num-branco {
+    margin-left: 2.5em;
+    width: 22%;
+}
+input[type*="number"] {
+    text-align: center;
+    width: 25%;
+}
+
+input[disabled] {
+    background-color: #ccc;
+}
+
+input[type*="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+}
+
+.input-margin input[type*="number"] {
+    margin: 0.5rem auto;
+}
+
+.moti-font label {
+    font-size: 1.5rem;
+}
+
+.button {
+    margin: 3em 7em;
+    padding: 1em 0;
+}
+
+.button--submit {
+    background-color: #598234;
+    border: 1px solid #AEBD38;
+    border-radius: 2px;
+    font-size: 1em;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+
+/* Utility classes */
+.space-itens {
+    margin-left: 1.5rem;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.flexBox--start {
+    justify-content: flex-start;
+}
+
+.flexBox--column {
+    flex-direction: column;
+}
+
+.flexBox--col-start {
+    align-self: flex-start;
+}
+
+.marginR-auto {
+    margin-right: auto;
+}
+
+.flexBox--center {
+    align-self: center;
+}
