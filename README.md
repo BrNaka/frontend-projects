@@ -32,6 +32,6 @@
 <a href="https://codepen.io/BrNaka/full/aROZxW/" target="_blank"><img src="https://i.imgur.com/9Rd5LFX.png"> </a>
 <hr>
 
-### Random Quotes Machine ###
+### Random Quotes Machine (Not Working in Codepen) ###
 <a href="https://codepen.io/BrNaka/full/jvRMEJ/" target="_blank"><img src="https://i.imgur.com/U1cMpZO.png"> </a>
 <hr>
