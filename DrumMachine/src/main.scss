@@ -1,0 +1,79 @@
+@import "./modules/colors";
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: $emerald;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    margin-top: 1.5em;
+    color: $dark-blue;
+    text-align: center; 
+    * {
+        margin: 0;
+    }
+    h1 {
+        text-shadow: -2px 2px $dark-emerald;
+    }
+    p {
+        font-style: italic;
+    }
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    #drum-machine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 10px;
+        width: 250px;
+        height: 250px;
+        #display {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 3px;
+            grid-row: 1;
+            grid-column: 1 / 4;
+            background-color: $dark-emerald;
+            box-shadow: -2px 2px 5px #555;
+            border-radius: 5px;
+            opacity: .5;
+            color: $white;
+        }
+        .drum-pad {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $dark-emerald;
+            color: $light-emerald;
+            background: -webkit-linear-gradient(45deg, $dark-emerald 5%, $dark-blue 95%);
+            box-shadow: -2px 2px 3px #555;
+            border-radius: 5px;
+            opacity: 0.95;
+            transition: box-shadow .3s, opacity .3s, background 1s, border .3s;
+            &:active, &.active {
+                border: 1px solid $emerald;
+                background: -webkit-linear-gradient(45deg, $dark-emerald 10%, $dark-blue 90%);
+                box-shadow: none;
+                color: $emerald;
+                opacity: 1;
+            }
+        }
+    }
+}

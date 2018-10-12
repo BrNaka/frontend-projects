@@ -1,0 +1,106 @@
+@font-face {
+    font-family: zekton;
+    src: url('../font/Zekton.ttf');
+}
+@font-face {
+    font-family: TlwgTypewriter;
+    src: url('../font/TlwgTypewriter.ttf');
+}
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    transition: background-color 1s;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.title {
+    h1 {
+        letter-spacing: 5px;
+        font-family: zekton;
+        margin-top: 1.5em;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 400px) {
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+.box {
+    display: grid;
+    grid-rows: auto;
+    grid-gap: 0.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 1em 1.5em;
+    background-color: white;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 60%;
+
+    .icon {
+        display: flex;
+        width: 1.5em;
+        height: 1.5em;
+        position: relative;
+        left: 100%;
+        transform: translateX(-100%);
+        img {
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
+
+    .quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-family: TlwgTypewriter;
+        p {
+            opacity: 1;
+            text-align: center;
+            transition: 1s;
+            font-size: 1.5em;
+            color: #555;
+            @media (max-width: 1000px) {
+                font-size: 1em;
+            }
+        }
+        span {
+            color: #555;
+            font-weight: bold;
+            opacity: 1;
+            align-self: flex-end;
+            transition: 1s;
+            font-style: italic;
+        }
+    }
+
+    .button {
+        font-family: zekton;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.5em 0.8em;
+        background-color: black;
+        color: white;
+        margin: auto;
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

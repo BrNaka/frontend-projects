@@ -1,0 +1,29 @@
+.fbx {
+    display: flex; 
+}
+
+.fbx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.fbx-sp-btw {
+    justify-content: space-between;
+}
+
+.fbx-sp-aro {
+    justify-content: space-around;
+}
+
+.centralize {
+    justify-content: center;
+    align-items: center;
+}
+
+.center-main-axis {
+    justify-content: center;
+}
+
+.center-cross-axis {
+    align-items: center;
+}
